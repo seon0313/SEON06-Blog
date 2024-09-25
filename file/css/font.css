@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'bold1';
+    src: url('/file/font/Paperlogy-1Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bold2';
+    src: url('/file/font/Paperlogy-2ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bold3';
+    src: url('/file/font/Paperlogy-3Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bold4';
+    src: url('/file/font/Paperlogy-4Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bold5';
+    src: url('/file/font/Paperlogy-5Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bold6';
+    src: url('/file/font/Paperlogy-6SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'bold7';
+    src: url('/file/font/Paperlogy-7Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "bold8";
+    src: url("/file/font/Paperlogy-8ExtraBold.ttf") format("truetype");
+    /*font-weight: normal;*/
+}
+
+@font-face {
+    font-family: 'bold9';
+    src: url('/file/font/Paperlogy-9Black.ttf') format('truetype');
+}
+    /*font-family: "bold8";*/

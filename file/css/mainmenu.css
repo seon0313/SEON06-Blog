@@ -1,0 +1,44 @@
+.first {
+    margin-top: 50px;
+}
+
+.control_bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.control_bar li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 100%;
+}
+
+.control_bar li:not(:last-of-type) {
+    width: calc(25% - 1px);
+    border-right: 1px solid var(--line);
+}
+
+.control_bar li:hover {
+    cursor: pointer;
+    background-color: gray;
+}
+
+.big {
+    width: 100%;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 2px;
+}
+
+.one img {
+    width: 50%;
+    margin: auto;
+    display: block;
+}

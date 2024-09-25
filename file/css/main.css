@@ -1,0 +1,64 @@
+html, body {
+    font-family: 'bold5';
+    background-color: var(--bg-color);
+    color: var(--color);
+    margin: 0;
+    padding: 10px;
+}
+
+.title {
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-family: 'bold1';
+}
+.title h1{
+    margin: 0;
+}
+.title h3 {
+    text-align: right;
+    font-style: italic;
+    margin: 0;
+    font-family: 'bold8';
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: var(--bg-color);
+    padding: 2px;
+}
+
+.inner {
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    padding: 5px;
+    color: var(--color);
+    overflow: auto;
+}
+
+.inner h3 {
+    margin: 0;
+}
+
+.viewport {
+    width: 70vw;
+}
+
+.darkchange {
+    position: fixed;
+    width: 120px;
+    text-align: center;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+img {
+    filter: var(--filter);
+}

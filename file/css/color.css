@@ -1,0 +1,51 @@
+:root {
+    --white: #F5F4F0;
+    --line: black;
+    --dark: rgb(30, 18, 27);
+}
+
+body.dark :root {
+    --line: white;
+}
+
+body {
+    --bg-color: var(--white);
+    --color: black;
+}
+
+body.dark {
+    --bg-color: var(--dark);
+    --color: white;
+}
+
+.box {
+    --bg-color: black;
+}
+
+img {
+    --filter: invert(0%);
+}
+
+body.dark img {
+    --filter: invert(100%);
+}
+
+body.dark div.box {
+    --bg-color: var(--white);
+}
+
+.inner {
+    --bg-color: var(--white);
+}
+
+body.dark .inner {
+    --bg-color: var(--dark);
+}
+
+.control_bar {
+    --line: black;
+}
+
+body.dark .control_bar {
+    --line: white;
+}
