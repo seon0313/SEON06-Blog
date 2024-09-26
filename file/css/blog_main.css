@@ -1,0 +1,15 @@
+.title {
+    cursor: pointer;
+}
+
+.side_bar {
+    position: fixed;
+    min-width: calc((100vw - 70vw - 60px) / 2);
+    width: calc((100vw - 70vw - 60px) / 2);
+    min-height: 500px;
+    border: 2px solid black;
+}
+
+.viewport {
+    border: 2px solid black;
+}

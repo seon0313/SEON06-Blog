@@ -1,7 +1,15 @@
 :root {
     --white: #F5F4F0;
     --line: black;
-    --dark: rgb(30, 18, 27);
+    --dark: rgb(20, 18, 27);
+}
+
+a {
+    --color: black;
+}
+
+body.dark a {
+    --color: white;
 }
 
 body.dark :root {
