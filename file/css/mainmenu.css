@@ -1,49 +1,24 @@
-.first {
-    margin-top: 50px;
-}
-
-.control_bar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.control_bar li {
-    width: 25%;
-    float: left;
+.today_message {
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.control_bar li:not(:last-of-type) {
-    width: calc(25% - 1px);
-    border-right: 1px solid var(--line);
+.today_message h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
 }
 
-.control_bar li:hover {
-    cursor: pointer;
-    background-color: gray;
+.today_message p {
+    margin: 0;
+    padding: 0;
+    color: rgb(80,80,80);
 }
 
-.control_bar a {
-    display: block;
-}
-
-.big {
-    width: 100%;
-    margin-top: 25px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 5px;
-    column-gap: 2px;
-}
-
-.one img {
-    width: 40%;
-    padding: 10%;
-    margin: auto;
-    display: block;
+.item h2 {
+    border-bottom: 1px solid rgb(200,200,200);
+    padding-bottom: 15px;
 }
