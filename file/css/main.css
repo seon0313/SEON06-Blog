@@ -12,6 +12,21 @@ html body {
     font-family: SCDream6;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+
+@media (min-width: 1500px) {
+    .m {
+        margin-left: calc((100vmax - 1500px) / 2);
+        margin-right: calc((100vmax - 1500px) / 2);
+        width: 1500px;
+    }
+    .p {
+        margin: 0;
+        padding-left: calc((100vmax - 1500px) / 2);
+        padding-right: calc((100vmax - 1500px) / 2);
+        width: 1500px;
+    }
 }
 
 .header {
@@ -44,6 +59,7 @@ html body {
 .header_left_items ul li {
     margin: 0;
     padding: 0;
+    margin-right: 20px;
     display: inline;
     list-style: none;
 }
@@ -67,9 +83,7 @@ html body {
 }
 .header_right_items {
     display: flex;
-    position: absolute;
-    right: 0;
-    align-items: center;
+    margin-left: auto;
 }
 
 .header_right_items img {
@@ -102,7 +116,13 @@ html body {
 
 .footer {
     background-color: rgb(245,245,245);
-    border-top: 1px solid rgb(200,200,200)
+    border-top: 1px solid rgb(200,200,200);
+    margin-top: 35px;
+}
+
+.footer_item {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .footer_item ul li {
